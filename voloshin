@@ -1,0 +1,9 @@
+touch script.sh
+nano script.sh
+(#!/bin/bash
+A=$(date +%Y -%m-%d
+B=$(date +%H:%M:%S
+echo "$D" "$T" >> test.txt
+cat test.txt)
+./script.sh
+nano test.txt
