@@ -1,0 +1,10 @@
+touch myscript.sh
+nano myscript.sh
+#!/usr/local/bin/bash
+D=$(date  +%Y-%m-%d)
+T=$(date +%H:%M:%S)
+echo  "$D" "$T" >> zalik.txt
+cat zalik.txt
+
+./myscript.sh
+nano zalik.txt
